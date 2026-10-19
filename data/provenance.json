@@ -1,0 +1,9 @@
+{
+  "source": "https://github.com/dsmiller95/SplendorSimulator",
+  "commit": "0157ce7027880912219a688c665dd63632a1f42f",
+  "path": "game_data/cards.csv",
+  "csv_sha256": "ad92cf1e554a6a0da7d6716a556a78bfb9645a5c35b46dc7d27c26fd0bce5c69",
+  "cross_check": "https://github.com/roeey777/Splendor-AI/blob/95f84d2e6e839c0ef09ca97bdc3b3048a792fb0b/src/splendor/splendor/splendor_utils.py",
+  "cross_check_result": "90 card tuples and 10 noble requirements match exactly",
+  "base_sha256": "eeb7669489c750f6e2b973ae93d090765144cc18cc8db4d300c422bed2b893e4"
+}
