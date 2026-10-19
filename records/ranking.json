@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Sol",
+    "wins": 207,
+    "draws": 0,
+    "losses": 42,
+    "pending": 1,
+    "points": 207,
+    "score_total": 3792,
+    "faults": 0,
+    "illegal": 0,
+    "rank": 1,
+    "max_points": 208
+  },
+  {
+    "name": "Astra",
+    "wins": 201,
+    "draws": 0,
+    "losses": 46,
+    "pending": 3,
+    "points": 201,
+    "score_total": 3684,
+    "faults": 1,
+    "illegal": 0,
+    "rank": 2,
+    "max_points": 204
+  },
+  {
+    "name": "Claude",
+    "wins": 175,
+    "draws": 0,
+    "losses": 66,
+    "pending": 9,
+    "points": 175,
+    "score_total": 3392,
+    "faults": 0,
+    "illegal": 0,
+    "rank": 3,
+    "max_points": 184
+  },
+  {
+    "name": "Gemini",
+    "wins": 79,
+    "draws": 0,
+    "losses": 170,
+    "pending": 1,
+    "points": 79,
+    "score_total": 2168,
+    "faults": 0,
+    "illegal": 0,
+    "rank": 4,
+    "max_points": 80
+  },
+  {
+    "name": "Qwen",
+    "wins": 62,
+    "draws": 0,
+    "losses": 177,
+    "pending": 11,
+    "points": 62,
+    "score_total": 2254,
+    "faults": 0,
+    "illegal": 0,
+    "rank": 5,
+    "max_points": 73
+  },
+  {
+    "name": "DeepSeek",
+    "wins": 1,
+    "draws": 0,
+    "losses": 224,
+    "pending": 25,
+    "points": 1,
+    "score_total": 575,
+    "faults": 1,
+    "illegal": 0,
+    "rank": 6,
+    "max_points": 26
+  }
+]

@@ -1,0 +1,819 @@
+{
+  "games": 750,
+  "unchanged_games": 724,
+  "resumed_games": 26,
+  "finished_overtime": 1,
+  "pending": 25,
+  "ranks_fixed_even_if_pending_results_change": true,
+  "standings": [
+    {
+      "name": "Sol",
+      "wins": 207,
+      "draws": 0,
+      "losses": 42,
+      "pending": 1,
+      "points": 207,
+      "score_total": 3792,
+      "faults": 0,
+      "illegal": 0,
+      "rank": 1,
+      "max_points": 208
+    },
+    {
+      "name": "Astra",
+      "wins": 201,
+      "draws": 0,
+      "losses": 46,
+      "pending": 3,
+      "points": 201,
+      "score_total": 3684,
+      "faults": 1,
+      "illegal": 0,
+      "rank": 2,
+      "max_points": 204
+    },
+    {
+      "name": "Claude",
+      "wins": 175,
+      "draws": 0,
+      "losses": 66,
+      "pending": 9,
+      "points": 175,
+      "score_total": 3392,
+      "faults": 0,
+      "illegal": 0,
+      "rank": 3,
+      "max_points": 184
+    },
+    {
+      "name": "Gemini",
+      "wins": 79,
+      "draws": 0,
+      "losses": 170,
+      "pending": 1,
+      "points": 79,
+      "score_total": 2168,
+      "faults": 0,
+      "illegal": 0,
+      "rank": 4,
+      "max_points": 80
+    },
+    {
+      "name": "Qwen",
+      "wins": 62,
+      "draws": 0,
+      "losses": 177,
+      "pending": 11,
+      "points": 62,
+      "score_total": 2254,
+      "faults": 0,
+      "illegal": 0,
+      "rank": 5,
+      "max_points": 73
+    },
+    {
+      "name": "DeepSeek",
+      "wins": 1,
+      "draws": 0,
+      "losses": 224,
+      "pending": 25,
+      "points": 1,
+      "score_total": 575,
+      "faults": 1,
+      "illegal": 0,
+      "rank": 6,
+      "max_points": 26
+    }
+  ],
+  "overtime": [
+    {
+      "pair": "05-astra-vs-deepseek",
+      "game": 2,
+      "names": [
+        "Astra",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        2,
+        0
+      ],
+      "old_scores": [
+        2,
+        0
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "9fd031eabb4414384acc31ea8ae64765d9d9394e0853fa0d8de742cabc17013f"
+      },
+      "replay": "05-astra-vs-deepseek/game_02.html"
+    },
+    {
+      "pair": "05-astra-vs-deepseek",
+      "game": 12,
+      "names": [
+        "Astra",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        4,
+        0
+      ],
+      "old_scores": [
+        4,
+        0
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "64f77a080f2ab6770844a6e553bb8fc7f3b1266a1866547a49e2850696fcf305"
+      },
+      "replay": "05-astra-vs-deepseek/game_12.html"
+    },
+    {
+      "pair": "05-astra-vs-deepseek",
+      "game": 15,
+      "names": [
+        "Astra",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        4,
+        0
+      ],
+      "old_scores": [
+        4,
+        0
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "66a7a34f1f3b4fba03f9e52e81017d882d900d2dec479293d5c854cb86e5e953"
+      },
+      "replay": "05-astra-vs-deepseek/game_15.html"
+    },
+    {
+      "pair": "09-sol-vs-deepseek",
+      "game": 45,
+      "names": [
+        "Sol",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        4,
+        0
+      ],
+      "old_scores": [
+        4,
+        0
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "b920abc169faacd0aa0962868d3f6a3eeebc5d40c1a9ec862380281145f64ecb"
+      },
+      "replay": "09-sol-vs-deepseek/game_45.html"
+    },
+    {
+      "pair": "12-claude-vs-deepseek",
+      "game": 2,
+      "names": [
+        "Claude",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        1,
+        1
+      ],
+      "old_scores": [
+        1,
+        1
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "66242de26e56acce92b69ba0ef9d7c4654807f135b48ee8705f80a400b5eb971"
+      },
+      "replay": "12-claude-vs-deepseek/game_02.html"
+    },
+    {
+      "pair": "12-claude-vs-deepseek",
+      "game": 8,
+      "names": [
+        "Claude",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        2,
+        0
+      ],
+      "old_scores": [
+        2,
+        0
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "fb9444ac83790061547fa5be122b926682b273e1eb918abd2ee225e8aef2a0e5"
+      },
+      "replay": "12-claude-vs-deepseek/game_08.html"
+    },
+    {
+      "pair": "12-claude-vs-deepseek",
+      "game": 27,
+      "names": [
+        "Claude",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        5,
+        0
+      ],
+      "old_scores": [
+        5,
+        0
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "6931fa361fcfb657f94b0d8514ba2ef772c8d3209bb96723d9673a1c9d50a458"
+      },
+      "replay": "12-claude-vs-deepseek/game_27.html"
+    },
+    {
+      "pair": "12-claude-vs-deepseek",
+      "game": 33,
+      "names": [
+        "Claude",
+        "DeepSeek"
+      ],
+      "reason": "target",
+      "winner": 0,
+      "scores": [
+        15,
+        6
+      ],
+      "old_scores": [
+        5,
+        4
+      ],
+      "turns": 440,
+      "added_turns": 40,
+      "repeated_states": 20,
+      "last_repeat": {
+        "turn": 424,
+        "previous_turn": 422,
+        "period": 2,
+        "state_sha256": "0ddd546915b07e1a5cd4bd34101f2da1a5dc58b19ab4455d6c1d85f9c3824f7d"
+      },
+      "replay": "12-claude-vs-deepseek/game_33.html"
+    },
+    {
+      "pair": "12-claude-vs-deepseek",
+      "game": 34,
+      "names": [
+        "Claude",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        5,
+        3
+      ],
+      "old_scores": [
+        5,
+        3
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "7a91385f5a59c1a9fbd82062b42f8012031e400eb0712c4aa7abaa5efa59ee56"
+      },
+      "replay": "12-claude-vs-deepseek/game_34.html"
+    },
+    {
+      "pair": "12-claude-vs-deepseek",
+      "game": 35,
+      "names": [
+        "Claude",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        2,
+        0
+      ],
+      "old_scores": [
+        2,
+        0
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "d6244247708f70f122eac70c04d0468ce95f4ad05a323af7124c62513ab75920"
+      },
+      "replay": "12-claude-vs-deepseek/game_35.html"
+    },
+    {
+      "pair": "12-claude-vs-deepseek",
+      "game": 38,
+      "names": [
+        "Claude",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        1,
+        3
+      ],
+      "old_scores": [
+        1,
+        3
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "0b164e0f68d11949ff1c754dbdc0b956fb06b04c10b0f5b1c264249e4a32fcc2"
+      },
+      "replay": "12-claude-vs-deepseek/game_38.html"
+    },
+    {
+      "pair": "12-claude-vs-deepseek",
+      "game": 39,
+      "names": [
+        "Claude",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        5,
+        3
+      ],
+      "old_scores": [
+        5,
+        3
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "382b56d5fb12b9b338cb448adc492b494233b8647c933136c3a4bb5f37d53681"
+      },
+      "replay": "12-claude-vs-deepseek/game_39.html"
+    },
+    {
+      "pair": "12-claude-vs-deepseek",
+      "game": 40,
+      "names": [
+        "Claude",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        6,
+        0
+      ],
+      "old_scores": [
+        4,
+        0
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 381,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "b55183d365421fd963a3f4927a3fe596f52aa86b8bcc1c2b9e45b57955437e4d"
+      },
+      "replay": "12-claude-vs-deepseek/game_40.html"
+    },
+    {
+      "pair": "12-claude-vs-deepseek",
+      "game": 50,
+      "names": [
+        "Claude",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        3,
+        2
+      ],
+      "old_scores": [
+        3,
+        2
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "8d4de61f8537c71e9262b1570b308bc6a2770285dbce5c18f2b41f5b3ffbcb51"
+      },
+      "replay": "12-claude-vs-deepseek/game_50.html"
+    },
+    {
+      "pair": "14-gemini-vs-deepseek",
+      "game": 33,
+      "names": [
+        "Gemini",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        1,
+        0
+      ],
+      "old_scores": [
+        1,
+        0
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "21035449e90bcc6560602b5f59eed244f6f78b05fdbbd54f08b1104467ac9521"
+      },
+      "replay": "14-gemini-vs-deepseek/game_33.html"
+    },
+    {
+      "pair": "15-qwen-vs-deepseek",
+      "game": 11,
+      "names": [
+        "Qwen",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        5,
+        2
+      ],
+      "old_scores": [
+        5,
+        2
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "3ad3c85c123da6e06b2d0ff457c3c81d782c890e963887b8768538e7c2b5e1b4"
+      },
+      "replay": "15-qwen-vs-deepseek/game_11.html"
+    },
+    {
+      "pair": "15-qwen-vs-deepseek",
+      "game": 12,
+      "names": [
+        "Qwen",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        5,
+        2
+      ],
+      "old_scores": [
+        5,
+        2
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "a4a320029d4b9015059597b3438e25fb441f94c79d375e1e312a1f7493bcf20e"
+      },
+      "replay": "15-qwen-vs-deepseek/game_12.html"
+    },
+    {
+      "pair": "15-qwen-vs-deepseek",
+      "game": 13,
+      "names": [
+        "Qwen",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        3,
+        0
+      ],
+      "old_scores": [
+        3,
+        0
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "7361e48e0d8c1566539da1a3ac001549e48aa0b0da4ca07c07d0f38808ec0a94"
+      },
+      "replay": "15-qwen-vs-deepseek/game_13.html"
+    },
+    {
+      "pair": "15-qwen-vs-deepseek",
+      "game": 14,
+      "names": [
+        "Qwen",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        3,
+        0
+      ],
+      "old_scores": [
+        3,
+        0
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "0582434e0d6f5fbb2b82381477d8a7e9646794afc34e6f1bb725e556e27bba30"
+      },
+      "replay": "15-qwen-vs-deepseek/game_14.html"
+    },
+    {
+      "pair": "15-qwen-vs-deepseek",
+      "game": 33,
+      "names": [
+        "Qwen",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        1,
+        0
+      ],
+      "old_scores": [
+        1,
+        0
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "6742ec113bb6eeb049dc07da34241449924fd755290443a8bdf50d4c1e703f27"
+      },
+      "replay": "15-qwen-vs-deepseek/game_33.html"
+    },
+    {
+      "pair": "15-qwen-vs-deepseek",
+      "game": 34,
+      "names": [
+        "Qwen",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        1,
+        2
+      ],
+      "old_scores": [
+        1,
+        2
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "3c18cfad069004e0a2f2e142889699ac787373a66d142bb8789e766ce7fe2728"
+      },
+      "replay": "15-qwen-vs-deepseek/game_34.html"
+    },
+    {
+      "pair": "15-qwen-vs-deepseek",
+      "game": 41,
+      "names": [
+        "Qwen",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        3,
+        1
+      ],
+      "old_scores": [
+        3,
+        1
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "1e0fbcd7346e55a423537b574fa242cfca5fd0bb149251889816f35c1ee394db"
+      },
+      "replay": "15-qwen-vs-deepseek/game_41.html"
+    },
+    {
+      "pair": "15-qwen-vs-deepseek",
+      "game": 42,
+      "names": [
+        "Qwen",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        1,
+        1
+      ],
+      "old_scores": [
+        1,
+        1
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "49e5f2c6951795e35993f12684d7b581606bc32f5364457476332f7d8740aae3"
+      },
+      "replay": "15-qwen-vs-deepseek/game_42.html"
+    },
+    {
+      "pair": "15-qwen-vs-deepseek",
+      "game": 43,
+      "names": [
+        "Qwen",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        7,
+        4
+      ],
+      "old_scores": [
+        7,
+        4
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "03bcdef9d978fe93ad4540cdfcb35a10b8e7f19da9cea3d639ed43f9f878d192"
+      },
+      "replay": "15-qwen-vs-deepseek/game_43.html"
+    },
+    {
+      "pair": "15-qwen-vs-deepseek",
+      "game": 44,
+      "names": [
+        "Qwen",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        1,
+        0
+      ],
+      "old_scores": [
+        1,
+        0
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "24fd968ffb4b4e81d55a9787dbc8b0ebf7ff2a2c78a647d244d5a6fb40438387"
+      },
+      "replay": "15-qwen-vs-deepseek/game_44.html"
+    },
+    {
+      "pair": "15-qwen-vs-deepseek",
+      "game": 45,
+      "names": [
+        "Qwen",
+        "DeepSeek"
+      ],
+      "reason": "pending_checkpoint",
+      "winner": null,
+      "scores": [
+        2,
+        0
+      ],
+      "old_scores": [
+        2,
+        0
+      ],
+      "turns": 800,
+      "added_turns": 400,
+      "repeated_states": 399,
+      "last_repeat": {
+        "turn": 800,
+        "previous_turn": 798,
+        "period": 2,
+        "state_sha256": "fe7dbb61a7ce78a70f0c9168eb825dab66312337baabdf0d912611009afeb4d9"
+      },
+      "replay": "15-qwen-vs-deepseek/game_45.html"
+    }
+  ],
+  "verification": "All 26 original prefixes and continuation snapshots independently replayed, including seeded private decks. Original source and referee hashes unchanged."
+}
