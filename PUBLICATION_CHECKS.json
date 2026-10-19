@@ -1,0 +1,13 @@
+{
+  "retained_official_games": 750,
+  "continuations": 26,
+  "raw_original_game_bytes_preserved": true,
+  "original_agent_and_referee_hashes_match": true,
+  "archives_crc_checked": true,
+  "local_absolute_paths_removed": true,
+  "latest_completed": 725,
+  "latest_pending": 25,
+  "full_seeded_replay_passed": true,
+  "unit_tests_passed": 25,
+  "docker_tests_skipped": 3
+}

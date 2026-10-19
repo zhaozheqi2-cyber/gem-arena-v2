@@ -1,0 +1,90 @@
+{
+  "rules": "gem-arena-2.0",
+  "participants": [
+    {
+      "name": "Astra",
+      "aliases": [
+        "Codex"
+      ],
+      "agent": "submissions/astra/agent.py",
+      "sha256": "47805b84b49e97da1c2ccbd2b05dfe48f6cddb5250289f7f0067c03238288e50",
+      "platform": "native platform, as reported by organizer; precise model version unverified"
+    },
+    {
+      "name": "Sol",
+      "aliases": [
+        "Prism",
+        "棱镜"
+      ],
+      "agent": "submissions/sol/agent.py",
+      "sha256": "bc780d625d42fa397f10bf80406e8c8ccf7bf03a95ac01f4995155e9fc09ea0b",
+      "platform": "native platform, as reported by organizer; precise model version unverified"
+    },
+    {
+      "name": "Claude",
+      "aliases": [],
+      "agent": "submissions/claude/agent.py",
+      "sha256": "0a02c1f85bbd393aab884bca87df463b5eded6f26d2772ff531a6cfddf36e52d",
+      "platform": "native platform, as reported by organizer; precise model version unverified"
+    },
+    {
+      "name": "Gemini",
+      "aliases": [],
+      "agent": "submissions/gemini/agent.py",
+      "sha256": "477e3836db801515017b0158c129db8deb0bf873047eff31886ccd9c08432fb3",
+      "platform": "native platform, as reported by organizer; precise model version unverified"
+    },
+    {
+      "name": "Qwen",
+      "aliases": [],
+      "agent": "submissions/qwen/agent.py",
+      "sha256": "b7eae5e4b0d783173cf619cc5aaa7566836f04563a455fcddbd8915c591bb8ca",
+      "platform": "native platform, as reported by organizer; precise model version unverified"
+    },
+    {
+      "name": "DeepSeek",
+      "aliases": [
+        "肥鱼"
+      ],
+      "agent": "submissions/deepseek/agent.py",
+      "sha256": "5a348f49edecfc9fe1f87a465b16e356245acd11fe8f45b13cdeccd7c95dfb34",
+      "platform": "native platform, as reported by organizer; precise model version unverified"
+    }
+  ],
+  "games": 750,
+  "games_per_pair": 50,
+  "seed_base": 398607633,
+  "paired_seeds": 25,
+  "first_stage_max_turns": 400,
+  "continuation_max_turns": 0,
+  "checkpoint_turn": 800,
+  "full_turn_budget_seconds": 3,
+  "max_parallel_games": 8,
+  "completed_games": 725,
+  "pending_games": 25,
+  "original_decided_games_unchanged": 724,
+  "resumed_games": 26,
+  "archives": [
+    {
+      "file": "records/formal-750.zip",
+      "sha256": "c1ba08f7d8796feb3dd52cf94046ddd576cc06c0621b910059a97212fe7fa55d",
+      "bytes": 19872916
+    },
+    {
+      "file": "records/continuation-26.zip",
+      "sha256": "d70350946d83dd082f2fd7bd539e96b11e9a6ab9ee373a5b8ede3728052cfdab",
+      "bytes": 3464434
+    }
+  ],
+  "referee_sha256": {
+    "__init__.py": "cf0c9d402d85dc1a6dfec75ee177b3a377c16d6d4ebef104693eff2ddfa0796b",
+    "executor.py": "1af824ac69c2bc457ccc3a4ab415b65571cd777eeaeec3cfb6780b225ec5143e",
+    "game.py": "b9717bf159360bd0bf147fc51045c7621b13b3dc2f0483c03e43c16b58197800",
+    "kit.py": "24c42ccc1bad63c8ff30a274dd4f5ecac457f46ca3a4104684cc550a614b0097",
+    "replay.py": "72c167eabae1b78f2c0fde7bb08fffc3197bb93c01d8b3d72d147c5d6a48c4cd",
+    "tournament.py": "d57bc0338ab496cc2012ccd3f8ad1f53aebf812676efe547f5d7738f846d02d6",
+    "verify.py": "ea0796d6eca4daca5eb91ebd302acc787cc3fcdd534e299ed14cedcdc2ea0573",
+    "worker.py": "dd55ab7f0b4b1f2d561f152e2d878daccacbe1136d9fe4316a8609ffecc29b06"
+  },
+  "data_sha256": "eeb7669489c750f6e2b973ae93d090765144cc18cc8db4d300c422bed2b893e4"
+}

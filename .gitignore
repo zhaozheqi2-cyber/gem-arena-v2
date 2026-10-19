@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+runs/
+participant-kit-v2.zip
+.venv/
+.env
